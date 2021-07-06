@@ -36,14 +36,7 @@ const self = {
         details.url = await el.querySelector("div > div > div:nth-child(2) > a")
           .href;
       });
-      // var result1 = new mediumDB({
-      //   creatorName: details.creator,
-      //   // title: titlename,
-      //   // detailPosted: detailsPosted,
-      //   // detailReading: detailsReading,
-      //   // linkArray: yourHref,
-      // });
-      // result1.save();
+   
       console.log(details);
 
       return details;
